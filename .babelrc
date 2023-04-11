@@ -1,0 +1,22 @@
+{
+    "presets": ["next/babel"],
+    "plugins": [
+      [
+        "module-resolver",
+        {
+          "root": ["./"],
+          "alias": {
+            "@components": "./components",
+            "@styles": "./styles",
+            "@public": "./public",
+            "@slices": "./redux/slices",
+            "@sagas": "./redux/sagas",
+            "@store": "./redux/store",
+            "@lib": "./lib",
+            "@helpers": "./helpers"
+
+          }
+        }
+      ]
+    ]
+  }

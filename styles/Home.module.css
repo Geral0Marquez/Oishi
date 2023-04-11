@@ -1,0 +1,10 @@
+.text_stroke {
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: white;
+}
+
+@media (min-width: 640px) {
+  .text_stroke {
+    -webkit-text-stroke-width: 6px;
+  }
+}
